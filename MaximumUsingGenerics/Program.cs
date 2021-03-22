@@ -6,9 +6,9 @@ namespace MaximumUsingGenerics
     {
         static void Main(string[] args)
         {
-           Console.WriteLine("Welcome to Find Maximum float Number :");
+            Console.WriteLine("Welcome To My Find Maximum String: ");
             FindMaximumNum find = new FindMaximumNum();
-           Console.WriteLine(find.MaximumFloatNumber(10.3f, 20.4f, 30.5f));
+           Console.WriteLine(find.MaximumStrigNumber("Apple", "Banana", "Peach"));
         }
 }
 }
