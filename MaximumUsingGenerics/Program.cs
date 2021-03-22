@@ -12,9 +12,9 @@ namespace MaximumUsingGenerics
             FindMaximum<float> find2 = new FindMaximum<float>(floatArray);
             string[] stringArray = { "111", "222", "333", "55", "999" };
             FindMaximum<string> find3 = new FindMaximum<string>(stringArray);
-            Console.WriteLine(find1.FindMaxValue());
-            Console.WriteLine(find2.FindMaxValue());
-            Console.WriteLine(find3.FindMaxValue());
+            find1.PrintMaxValue();
+            find2.PrintMaxValue();
+            find3.PrintMaxValue();
         }
-}
+    }
 }
